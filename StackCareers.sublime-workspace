@@ -1,0 +1,361 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tea",
+				"tearDownClass"
+			],
+			[
+				"cla",
+				"classmethod"
+			],
+			[
+				"live",
+				"live_server_url"
+			],
+			[
+				"setU",
+				"setUpClass"
+			],
+			[
+				"find",
+				"find_element_by_id"
+			],
+			[
+				"input",
+				"inputbox"
+			],
+			[
+				"ass",
+				"assertRedirects"
+			],
+			[
+				"new",
+				"new_item"
+			],
+			[
+				"l",
+				"list_id"
+			],
+			[
+				"sec",
+				"second_item"
+			],
+			[
+				"se",
+				"second_item"
+			],
+			[
+				"row",
+				"row_text"
+			],
+			[
+				"id",
+				"id_list_table"
+			],
+			[
+				"find_",
+				"find_element_by_tag_name"
+			],
+			[
+				"in",
+				"inputbox"
+			],
+			[
+				"text",
+				"text"
+			],
+			[
+				"Re",
+				"RequestParam"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 49.0,
+		"selected_items":
+		[
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 378.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Jonathan/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Jonathan/Development/scrapy/tutorial/tutorial/spiders/dmoz_spider.pyc",
+		"/Users/Jonathan/Development/scrapy/tutorial/tutorial.sublime-project",
+		"/Users/Jonathan/Development/PythonTDD/superlists/lists/migrations/0003_list.py",
+		"/Users/Jonathan/Development/PythonTDD/superlists/lists/migrations/__pycache__/0003_list.cpython-34.pyc",
+		"/Users/Jonathan/Development/PythonTDD/superlists/manage.py",
+		"/Users/Jonathan/Development/PythonTDD/superlists/functional_tests.py",
+		"/Users/Jonathan/Development/PythonTDD/superlists/superlists/settings.py",
+		"/Users/Jonathan/Development/PythonTDD/superlists/lists/migrations/0001_initial.py",
+		"/Users/Jonathan/Desktop/Test.java",
+		"/Users/Jonathan/Development/SpringREST/src/main/java/onl/jon/Application.java",
+		"/Users/Jonathan/Development/SpringREST/src/main/java/onl/jon/GreetingController.java",
+		"/Users/Jonathan/Development/SpringREST/src/main/java/onl/jon/Greeting.java",
+		"/Users/Jonathan/Development/SpringREST/pom.xml",
+		"/Users/Jonathan/Development/mvn.txt",
+		"/Volumes/NO NAME/Development/Burberry/DataQuality/pom.xml",
+		"/Users/Jonathan/Development/Startups/env.sh",
+		"/Users/Jonathan/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Jonathan/Downloads/Preferences.sublime-settings",
+		"/Users/Jonathan/Development/AngularForms/jquery.html",
+		"/Users/Jonathan/Development/AngularForms/env.sh",
+		"/Users/Jonathan/Development/AngularForms/backend.py",
+		"/Users/Jonathan/Development/AngularForms/angular.html",
+		"/Users/Jonathan/Downloads/Sublime Text 2/ICO/Sublime Text 2.ico"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"scrapy crawl dmoz",
+			"parse",
+			"inputbox = self.browser.find_element_by_id('id_new_item')",
+			"self.browser.get(self.live_server_url)",
+			"webdriver",
+			"redire",
+			" >",
+			"database",
+			"retrieveing",
+			"from django.template.loader import redner_to_string",
+			"from django.template.loader import render_to_string",
+			"from selenium.webdriver.common.keys import Keys",
+			"bre",
+			"brew ins",
+			"brew install",
+			"browser",
+			"SpringApplication",
+			"=",
+			"tab",
+			"org.springframework.boot"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "StackCareers.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"test",
+				"functional_tests/tests.py"
+			],
+			[
+				"home",
+				"lists/templates/home.html"
+			],
+			[
+				"tests",
+				"functional_tests/tests.py"
+			],
+			[
+				"urls",
+				"superlists/urls.py"
+			],
+			[
+				"list",
+				"lists/templates/lists.html"
+			],
+			[
+				"view",
+				"lists/views.py"
+			],
+			[
+				"views",
+				"lists/views.py"
+			],
+			[
+				"ts",
+				"lists/tests.py"
+			],
+			[
+				"vie",
+				"lists/views.py"
+			],
+			[
+				"mode",
+				"lists/models.py"
+			],
+			[
+				"uls",
+				"superlists/urls.py"
+			],
+			[
+				"t",
+				"lists/tests.py"
+			],
+			[
+				"sett",
+				"superlists/settings.py"
+			],
+			[
+				"settings",
+				"superlists/settings.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 148.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
