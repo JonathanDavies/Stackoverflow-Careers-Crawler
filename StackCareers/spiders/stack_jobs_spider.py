@@ -5,7 +5,7 @@ from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from StackCareers.items import Job
 
 class StackSpider(CrawlSpider):
-    name = "stack"
+    name = "jobs"
     allowed_domains = ["careers.stackoverflow.com"]
     start_urls = [
         "http://careers.stackoverflow.com/uk/jobs?searchTerm=&location=london",
