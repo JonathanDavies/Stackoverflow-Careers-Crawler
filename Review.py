@@ -37,7 +37,7 @@ def review_entries(data):
     browser.quit()
 
 
-def review():
+def review(merge_only=False):
     data = []
     if os.path.isfile(FILE_NAME):
         with open(FILE_NAME) as f:
@@ -46,11 +46,8 @@ def review():
             except Exception:
                 pass
 
-    new_companies = get_new_companies()
-    if new_companies:
-        print('Merging new companies')
-        data += new_companies
-    else:
+    data += get_new_companies()
+    if not merge_only:
         review_entries(data)
 
     with open(FILE_NAME, 'w') as f:
@@ -79,7 +76,11 @@ def view_liked():
 
 if __name__ == '__main__':
     import sys
-    if len(sys.argv) > 1 and sys.argv[1] == 'liked':
-        view_liked()
+
+    if len(sys.argv) > 1:
+        if sys.argv[1] == 'liked':
+            view_liked()
+        elif sys.argv[1] == 'merge':
+            review(True)
     else:
         review()
