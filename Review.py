@@ -1,5 +1,5 @@
-import json
 import os
+import json
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
@@ -57,5 +57,29 @@ def review():
         json.dump(data, f)
 
 
+def view_liked():
+    data = []
+    if os.path.isfile(FILE_NAME):
+        with open(FILE_NAME) as f:
+            try:
+                data = json.load(f)
+            except Exception:
+                pass
+
+    if data:
+        browser = webdriver.Chrome()
+        for line in data:
+            if line.get('like', False):
+                view = input('View ' + line['name']).strip().lower()
+                if view in ['y', 'yes']: browser.get('http://' + line['link'])
+        done = input('Done')
+        browser.quit()
+
+
+
 if __name__ == '__main__':
-    review()
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == 'liked':
+        view_liked()
+    else:
+        review()
