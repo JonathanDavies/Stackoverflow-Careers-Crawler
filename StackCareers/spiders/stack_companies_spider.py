@@ -1,3 +1,5 @@
+import json
+import os
 import scrapy
 from scrapy.contrib.spiders import CrawlSpider, Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
@@ -6,7 +8,21 @@ from StackCareers.items import Company
 
 DOMAIN = 'careers.stackoverflow.com'
 
+def get_companies():
+    companies = set()
+    if os.path.isfile('companies.json'):
+        with open('companies.json') as f:
+            try:
+                data = json.load(f)
+                companies.update(line['name'].strip() for line in data)
+            except Exception:
+                pass
+    return companies
+
+
 class StackSpider(CrawlSpider):
+    companies = get_companies()
+
     name = "companies"
     allowed_domains = [DOMAIN]
     start_urls = [
@@ -20,6 +36,7 @@ class StackSpider(CrawlSpider):
     def parse_start_url(self, response):
         for sel in response.xpath('//div[@class="list companies"]/div'):
             item = Company()
-            item['name']    = ''.join(sel.xpath('a/text()').extract())
-            item['link']    = DOMAIN + ''.join(sel.xpath('a/@href').extract())
-            yield item
+            item['name']    = ''.join(sel.xpath('a/text()').extract()).strip()
+            item['link']    = DOMAIN + ''.join(sel.xpath('a/@href').extract()).strip()
+            if item['name'] not in self.companies:
+                yield item
