@@ -1,0 +1,2 @@
+scrapy crawl companies -o companies.json
+scrapy crawl jobs -o jobs.json

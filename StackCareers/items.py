@@ -8,3 +8,8 @@ class Job(scrapy.Item):
     title = scrapy.Field()
     company = scrapy.Field()
     tags = scrapy.Field()
+
+
+class Company(scrapy.Item):
+    name = scrapy.Field()
+    link = scrapy.Field()
