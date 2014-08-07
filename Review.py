@@ -30,7 +30,7 @@ def review_entries(data):
         print(line['name'], link)
         browser.get(link)
 
-        like = input('Do you like? ').strip().lower()
+        like = input('\033[92m Do you like? \033[0m').strip().lower()
         if like in ['y', 'yes']: line['like'] = True
         elif like in ['n', 'no']: line['like'] = False
         elif like in ['e', 'exit']: break
