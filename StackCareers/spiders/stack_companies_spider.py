@@ -39,4 +39,5 @@ class StackSpider(CrawlSpider):
             item['name']    = ''.join(sel.xpath('a/text()').extract()).strip()
             item['link']    = DOMAIN + ''.join(sel.xpath('a/@href').extract()).strip()
             if item['name'] not in self.companies:
+                self.companies.add(item['name'])
                 yield item
